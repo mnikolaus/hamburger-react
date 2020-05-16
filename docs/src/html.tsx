@@ -65,7 +65,7 @@ export default (props: {
       )}
       {props.headComponents}
     </head>
-    <body className="text-white">
+    <body className="text-white bg-black">
       {props.preBodyComponents}
       <div
         key={`body`}
